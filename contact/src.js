@@ -735,7 +735,7 @@
 
     DisablePaging();
 
-    var docTop = document.querySelector(".sa-form");
+    var docTop = document.querySelector(".navbar");
     window.scrollTo(window.scrollX, docTop.offsetTop);
     document.querySelector("html").style = "overflow: hidden";
 
@@ -880,7 +880,7 @@
         var pageElement = GetPageElementById(previousPageIndex);
         pageElement.style.display = "block";
 
-        var docTop = document.querySelector(".sa-form");
+        var docTop = document.querySelector(".navbar");
         window.scrollTo(window.scrollX, docTop.offsetTop);
 
         sa.utils.fireLayoutChangedEvent();
@@ -910,7 +910,7 @@
           var nextPageElement = GetPageElementById(nextPageId);
           nextPageElement.style.display = "block";
 
-          var docTop = document.querySelector(".sa-form");
+          var docTop = document.querySelector(".navbar");
           window.scrollTo(window.scrollX, docTop.offsetTop);
 
           sa.utils.fireLayoutChangedEvent();
@@ -1048,4 +1048,4 @@
   }
 
   sa.form.init.push(InitializePaging);
-})(); //# sourceURL=SaForms.js</script>
+})();
