@@ -880,7 +880,7 @@
         var pageElement = GetPageElementById(previousPageIndex);
         pageElement.style.display = "block";
 
-        var docTop = document.querySelector(".navbar");
+        var docTop = document.querySelector(".sa-form");
         window.scrollTo(window.scrollX, docTop.offsetTop);
 
         sa.utils.fireLayoutChangedEvent();
@@ -910,7 +910,7 @@
           var nextPageElement = GetPageElementById(nextPageId);
           nextPageElement.style.display = "block";
 
-          var docTop = document.querySelector(".navbar");
+          var docTop = document.querySelector(".sa-form");
           window.scrollTo(window.scrollX, docTop.offsetTop);
 
           sa.utils.fireLayoutChangedEvent();
