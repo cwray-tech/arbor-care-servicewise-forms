@@ -81,12 +81,6 @@
   }
 }
 
-.sa-form-page-prev:hover,
-.sa-form-page-next:hover,
-.sa-form-page-submit:hover {
-  filter: brightness(75%);
-}
-
 .sa-form-page-prev:active,
 .sa-form-page-next:active,
 .sa-form-page-submit:active {
