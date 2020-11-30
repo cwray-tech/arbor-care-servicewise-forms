@@ -147,8 +147,8 @@
 
 .sa-radio {
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #669f34;
   border-radius: 50%;
   cursor: pointer;
