@@ -147,8 +147,8 @@
 
 .sa-radio {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border: 2px solid #669f34;
   border-radius: 50%;
   cursor: pointer;
@@ -156,10 +156,10 @@
 
 .sa-radio-checkmark {
   position: absolute;
-  top: 2.5px;
-  left: 2.5px;
-  width: 15px;
-  height: 15px;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   content: '';
   display: none;
