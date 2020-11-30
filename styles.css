@@ -123,7 +123,6 @@
 .sa-radio-container {
   display: block;
   position: relative;
-  padding-left: 12px;
   cursor: pointer;
   font-size: 16px;
   -webkit-user-select: none;
