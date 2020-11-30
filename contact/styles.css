@@ -50,8 +50,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 16px;
-  margin: 12px 2%;
+  padding-bottom: 20px;
+  margin: 10px 0;
 }
 
 .sa-form-page-prev,
