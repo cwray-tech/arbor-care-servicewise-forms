@@ -114,8 +114,8 @@
 }
 
 .sa-input.sa-required::before {
-  position: relative;
-  top: -24px;
+  position: absolute;
+  top: -26px;
   content: '*';
   color: red;
 }
