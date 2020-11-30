@@ -156,10 +156,10 @@
 
 .sa-radio-checkmark {
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 12px;
-  height: 12px;
+  top: 2.5px;
+  left: 2.5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   content: '';
   display: none;
@@ -233,7 +233,7 @@
   content: '';
   display: block;
   left: 4px;
-  top: 0px;
+  top: 0;
   width: 5px;
   height: 10px;
   border: solid #669f34;
@@ -246,7 +246,7 @@
 .sa-checkbox-container input:checked~.sa-checkbox>.sa-checkbox-checkmark {
   display: block;
   left: 4px;
-  top: 0px;
+  top: 0;
   width: 5px;
   height: 10px;
   border: solid white;
@@ -258,68 +258,6 @@
 
 .sa-checkbox-container .sa-checkbox-label {
   margin-left: 26px;
-}
-
-/* Themes */
-.sa-theme0 {
-  background-color: white;
-}
-
-.sa-theme1 {
-  background-color: #E6F9E6;
-  font-family: Helvetica;
-}
-
-.sa-theme2 {
-  background-color: #F3F3F3;
-  font-family: 'Times New Roman';
-}
-
-.sa-theme3 {
-  background-color: #ECF3FC;
-  font-family: Verdana;
-}
-
-.sa-theme4 {
-  background-color: #669f34;
-  font-family: Arial;
-}
-
-.sa-theme5 {
-  background-color: #FFF2E5;
-  font-family: 'Courier New';
-  font-size: 16px;
-}
-
-.sa-theme6 {
-  background-color: #669f34;
-  font-family: 'Trebuchet MS';
-  font-size: 16px;
-}
-
-
-.sa-placeholder-italic::-webkit-input-placeholder {
-  font-style: italic;
-}
-
-.sa-placeholder-bold::-webkit-input-placeholder {
-  font-weight: bold
-}
-
-.sa-placeholder-underlined::-webkit-input-placeholder {
-  text-decoration: underline;
-}
-
-.sa-placeholder-italic::-moz-placeholder {
-  font-style: italic;
-}
-
-.sa-placeholder-bold::-moz-placeholder {
-  font-weight: bold
-}
-
-.sa-placeholder-underlined::-moz-placeholder {
-  text-decoration: underline;
 }
 
 .sa-form-divider {
