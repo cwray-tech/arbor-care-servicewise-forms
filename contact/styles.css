@@ -6,7 +6,6 @@
 
 .sa-text {
   padding: 10px 28px 10px 15px;
-  font-size: 14px;
 }
 
 .sa-dropdown {
@@ -14,10 +13,9 @@
 }
 
 .sa-textarea {
-  resize: none;
+  resize: vertical;
   height: auto;
   padding: 10px 28px 10px 15px;
-  font-size: 14px;
 }
 
 .sa-form {
