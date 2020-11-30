@@ -156,8 +156,8 @@
 
 .sa-radio-checkmark {
   position: absolute;
-  top: 1px;
-  left: 1px;
+  top: 0;
+  left: 0;
   width: 14px;
   height: 14px;
   border-radius: 50%;
