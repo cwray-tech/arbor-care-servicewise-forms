@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46ff10b4-7998-4184-a86b-e16cec268f68" name="Default Changelist" comment="remove overflow hidden on html.">
-      <change beforePath="$PROJECT_DIR$/contact/src.js" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/quote/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\Documents\CustomerFiles\Arbor Care\ServicewiseContactForms" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ServicewiseContactForms/quote/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -50,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606753777598</updated>
-      <workItem from="1606753778883" duration="5044000" />
+      <workItem from="1606753778883" duration="5528000" />
     </task>
     <task id="LOCAL-00001" summary="Update checkmark styles">
       <created>1606756885619</created>
