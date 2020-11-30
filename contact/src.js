@@ -737,7 +737,6 @@
 
     var docTop = document.querySelector(".navbar");
     window.scrollTo(window.scrollX, docTop.offsetTop);
-    document.querySelector("html").style = "overflow: hidden";
 
     let progressIndicator = document.querySelector(
       "#sa-submission-progress-container"
