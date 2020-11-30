@@ -4,7 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ff10b4-7998-4184-a86b-e16cec268f68" name="Default Changelist" comment="">
+    <list default="true" id="46ff10b4-7998-4184-a86b-e16cec268f68" name="Default Changelist" comment="remove overflow hidden on html.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606753777598</updated>
-      <workItem from="1606753778883" duration="3484000" />
+      <workItem from="1606753778883" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="Update checkmark styles">
       <created>1606756885619</created>
@@ -66,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606757420479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove input margin bottom">
+      <created>1606757559930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757559930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove overflow hidden on html.">
+      <created>1606757988873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757988873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,16 +89,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update checkmark styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update checkmark styles" />
+    <MESSAGE value="remove input margin bottom" />
+    <MESSAGE value="remove overflow hidden on html." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove overflow hidden on html." />
   </component>
   <component name="WindowStateProjectService">
     <state x="464" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606755175963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="464" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1606755175963" />
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1606757418169">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1606757986497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606757418169" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606757986497" />
   </component>
 </project>
