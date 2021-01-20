@@ -366,7 +366,7 @@
         selectedValue = input.selectedIndex.toString();
       }
       /*         * the following switch block can be replaced with "return selectedValue === value;"         *         * I did not do this because by the time I realized it was like this, the R1 release was a few days away.         */ switch (
-        rule.condition
+      rule.condition
       ) {
         case 10:
           return selectedValue === value;
@@ -415,7 +415,7 @@
         }
       }
       /*         * the following switch block can be replaced with "return selectedValue === value;"         *          * I did not do this because by the time I realized it was like this, the R1 release was a few days away.         */ switch (
-        rule.condition
+      rule.condition
       ) {
         case 10:
           return selectedValue === value;
@@ -548,7 +548,7 @@
   }
   sa.form.init.push(UpdateInputValidStyle);
   function LoadSubmitButton(confirmationType, data) {
-    var submitBtn = document.getElementById("sa-form-submit");
+    const submitBtn = document.getElementById("sa-form-submit");
     switch (confirmationType) {
       case "Document":
       case "URL":
@@ -587,7 +587,7 @@
     let previousButtons = document.getElementsByClassName("sa-form-page-prev");
     for (let i = 0; i < previousButtons.length; i++)
       previousButtons[i].classList.add("disabled");
-    let submitBtn = document.getElementById("sa-form-submit");
+    const submitBtn = document.getElementById("sa-form-submit");
     submitBtn.classList.add("disabled");
   }
   function EnablePaging() {
@@ -597,7 +597,7 @@
     let previousButtons = document.getElementsByClassName("sa-form-page-prev");
     for (let i = 0; i < previousButtons.length; i++)
       previousButtons[i].classList.remove("disabled");
-    let submitBtn = document.getElementById("sa-form-submit");
+    const submitBtn = document.getElementById("sa-form-submit");
     submitBtn.classList.remove("disabled");
   }
   function DisplayConfirmation() {
@@ -705,7 +705,7 @@
     Post(
       "https://my.serviceautopilot.com/MarketingBFF/Form/ApplyTagsOnClick",
       data,
-      function () {}
+      function () { }
     );
   }
   function InitializeSubmit() {
