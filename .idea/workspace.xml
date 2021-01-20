@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46ff10b4-7998-4184-a86b-e16cec268f68" name="Default Changelist" comment="remove overflow hidden on html.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/src.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606753777598</updated>
-      <workItem from="1606753778883" duration="5835000" />
+      <workItem from="1606753778883" duration="5908000" />
+      <workItem from="1607335266293" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Update checkmark styles">
       <created>1606756885619</created>
