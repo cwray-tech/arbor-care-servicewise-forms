@@ -39,6 +39,7 @@
   padding: 1px 0;
   max-width: 1024px;
   margin: 0 auto;
+  display: grid;
 }
 
 .sa-form-page-nav {
@@ -70,7 +71,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
   .sa-form-page-prev,
   .sa-form-page-next,
   .sa-form-page-submit {
@@ -107,15 +107,10 @@
   color: red;
 }
 
-.sa-required::before {
-  content: '* ';
-  color: red;
-}
-
 .sa-input.sa-required::before {
   position: absolute;
   top: -26px;
-  content: '*';
+  content: "*";
   color: red;
 }
 
@@ -160,17 +155,17 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  content: '';
+  content: "";
   display: none;
 }
 
-.sa-radio-container:hover input~.sa-radio>.sa-radio-checkmark {
+.sa-radio-container:hover input ~ .sa-radio > .sa-radio-checkmark {
   background-color: #669f34;
-  content: '';
+  content: "";
   display: block;
 }
 
-.sa-radio-container input:checked~.sa-radio>.sa-radio-checkmark {
+.sa-radio-container input:checked ~ .sa-radio > .sa-radio-checkmark {
   display: block;
 }
 
@@ -223,13 +218,16 @@
 }
 
 .sa-checkbox-checkmark {
-  content: '';
+  content: "";
   position: absolute;
   display: none;
 }
 
-.sa-checkbox-container:hover input:not(:checked)~.sa-checkbox>.sa-checkbox-checkmark {
-  content: '';
+.sa-checkbox-container:hover
+  input:not(:checked)
+  ~ .sa-checkbox
+  > .sa-checkbox-checkmark {
+  content: "";
   display: block;
   left: 4px;
   top: 0;
@@ -242,7 +240,7 @@
   transform: rotate(45deg);
 }
 
-.sa-checkbox-container input:checked~.sa-checkbox>.sa-checkbox-checkmark {
+.sa-checkbox-container input:checked ~ .sa-checkbox > .sa-checkbox-checkmark {
   display: block;
   left: 4px;
   top: 0;
@@ -273,7 +271,6 @@
   text-align: center;
 }
 
-
 .sa-formRating .sa-formRating--Container {
   background-color: #ffffff;
   border-top: solid 1px #9e9e9e;
@@ -290,7 +287,7 @@
   border: 1px solid red;
 }
 
-.sa-formRating .sa-formRating--Container:not(:checked)>input {
+.sa-formRating .sa-formRating--Container:not(:checked) > input {
   display: none;
 }
 
@@ -307,7 +304,7 @@
   text-align: center;
   cursor: pointer;
   padding: 10px 20px;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
   color: #1e1e1e;
   border-radius: 6px;
   border: none;
@@ -331,7 +328,7 @@
 }
 
 .sa-uploadedFile {
-  border: 1px solid #C3C3C3;
+  border: 1px solid #c3c3c3;
   border-radius: 6px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.3);
   padding: 10px;
@@ -340,7 +337,7 @@
 
 .sa-uploadedFile .sa-uploadedFile--Remove {
   justify-content: flex-end;
-  color: #D0021B;
+  color: #d0021b;
   cursor: pointer;
   align-self: center;
 }
@@ -407,7 +404,6 @@
   }
 }
 
-
 .l-SA-FormRating {
   display: flex;
   flex-direction: row;
@@ -438,7 +434,8 @@
   height: 24px;
   background-size: 24px 24px;
   background-image: url(https://my.serviceautopilot.com/v3-images/CircleCheck.svg);
-  filter: brightness(0) saturate(100%) invert(43%) sepia(100%) saturate(421%) hue-rotate(97deg) brightness(97%) contrast(93%);
+  filter: brightness(0) saturate(100%) invert(43%) sepia(100%) saturate(421%)
+    hue-rotate(97deg) brightness(97%) contrast(93%);
 }
 
 .sa-ico-Trashcan {
@@ -450,7 +447,8 @@
   height: 24px;
   background-size: 24px 24px;
   background-image: url(https://my.serviceautopilot.com/v3-images/Trashcan.svg);
-  filter: invert(9%) sepia(97%) saturate(6260%) hue-rotate(349deg) brightness(90%) contrast(102%);
+  filter: invert(9%) sepia(97%) saturate(6260%) hue-rotate(349deg)
+    brightness(90%) contrast(102%);
   /*red*/
 }
 
@@ -463,7 +461,8 @@
   height: 24px;
   background-size: 24px 24px;
   background-image: url(https://my.serviceautopilot.com/v3-images/void.svg);
-  filter: invert(9%) sepia(97%) saturate(6260%) hue-rotate(349deg) brightness(90%) contrast(102%);
+  filter: invert(9%) sepia(97%) saturate(6260%) hue-rotate(349deg)
+    brightness(90%) contrast(102%);
   /*red*/
 }
 
