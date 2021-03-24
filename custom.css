@@ -1,18 +1,82 @@
+:root {
+  --accent-color: #669f34;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  border: black 2px solid;
+  border-radius: 0%;
+  min-height: 40px;
+  margin: 5px 0 10px 0;
+}
+
+.contact-form-grid {
+  display: grid;
+  margin: 20px 0;
+  grid-auto-columns: 1fr;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
 .grid-span-2 {
   grid-column: span 2;
 }
+
 .button {
   display: inline-block;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4em;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.field-label {
-  display: inline-block;
+.button:hover {
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
 }
+
 .separator-line {
-  background-color: #669f34;
+  background-color: black;
+  border: black 1px solid;
+  margin: 20px 0;
 }
 .sa-checkbox {
   margin-top: 4px;
 }
 .sa-form-field {
   margin: 0;
+}
+.sa-checkbox-container {
+  padding-left: 0;
 }
