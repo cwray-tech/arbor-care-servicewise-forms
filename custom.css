@@ -10,7 +10,6 @@ body {
   color: #000;
   font-size: 18px;
   line-height: 1.4em;
-  padding: 1px 0 3px 0;
 }
 p {
   display: block;
@@ -39,7 +38,7 @@ select {
 
 .contact-form-grid {
   display: grid;
-  margin: 20px 0;
+  margin: 20px 3px;
   grid-auto-columns: 1fr;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
